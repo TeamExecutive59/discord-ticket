@@ -8,7 +8,7 @@ module.exports = class Ticket extends Model {
                 autoIncrement: true,
                 primaryKey: true,
             },
-            channelId: {
+            channelId: {user} ticket
                 type: DataTypes.STRING,
             },
             guildId: {
